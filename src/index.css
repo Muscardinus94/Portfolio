@@ -7,3 +7,11 @@
     font-size: 14px;
   }
 }
+
+.header-scroll {
+  @apply bg-black;
+}
+
+.header-scroll h4 {
+  @apply text-white;
+}

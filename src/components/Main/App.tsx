@@ -178,6 +178,38 @@ const App = () => {
           </div>
         </div>
       </div>
+      <div className="my-20 w-full mx-auto sm:w-9/12" data-aos="fade-right">
+        <h4 className="text-3xl font-medium">Contact</h4>
+        <hr className="my-4" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-12">
+          <div className="flex flex-col gap-y-4">
+            <a
+              className="text-2xl font-medium underline hover:text-gray-300"
+              href="https://github.com/Muscardinus94"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              className="text-2xl font-medium underline hover:text-gray-300"
+              href="https://muscardinus.tistory.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+            <a
+              className="text-2xl font-medium underline hover:text-gray-300"
+              href="https://courageous-gastonia-589.notion.site/24df0957b45141959c6fbe1d452ff422"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
   );
 };
