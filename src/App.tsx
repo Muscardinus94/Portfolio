@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 
 import Header from 'components/Header/App';
+import Main from 'components/Main/App';
 import 'aos/dist/aos.css';
 
 function App() {
@@ -9,7 +10,12 @@ function App() {
     AOS.init();
   }, []);
 
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Main />
+    </>
+  );
 }
 
 export default App;

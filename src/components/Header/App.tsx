@@ -1,13 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import AOS from 'aos';
 
 const Header = () => {
-  React.useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  });
   return (
     <header className="py-4 px-8 bg-header">
       <div className="mb-32">
